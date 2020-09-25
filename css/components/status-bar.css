@@ -2,7 +2,7 @@
   display: flex; /* 노서비스, 18:43, 들 같은줄에놓기위해 */
   justify-content: center; /* 분리시켜서배치하기위해 */
   padding: 5px 3px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .status-bar__column {
   width: 33%;
