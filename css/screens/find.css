@@ -1,22 +1,3 @@
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column; /*아이콘 오른쪽에 글자오는게 아니라 밑으로 오게함*/
-  align-items: center; /* 아이콘들 중앙으로 모임*/
-}
-
-.find-icons__icon i {
-  font-size: 35px;
-}
-
-.find-icons__icon span {
-  margin-top: 18px;
-}
-
 .recommended-friends {
   margin: 25px 0px;
   padding: 25px 0px;
