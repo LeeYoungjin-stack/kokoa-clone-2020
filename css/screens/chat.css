@@ -214,3 +214,25 @@
 .reply:focus-within {
   transform: translateY(80px);
 }
+
+@keyframes anime {
+  0% {
+    transform: translateZ(-5px);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateZ(15px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateZ(-5px);
+  }
+}
+
+.anime {
+  animation: anime 0.5s linear infinite;
+}
